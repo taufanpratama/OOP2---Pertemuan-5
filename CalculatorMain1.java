@@ -1,0 +1,16 @@
+public class CalculatorMain1 extends Calculator {
+	int z;
+	public void perkalian(int x, int y) {
+		z = x + y;
+	System.out.println("Hasil:" + z);
+	
+	}
+	
+	public static void main(String args[]) {
+		int a = 20, b = 10;
+		CalculatorMain1 cal = new CalculatorMain1();
+		cal.pertambahan(a, b);
+		cal.pengurangan(a, b);
+		cal.perkalian(a, b);
+		}
+	}
